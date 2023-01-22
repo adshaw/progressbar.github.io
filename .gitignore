@@ -85,7 +85,4 @@ typings/
 # Webpack
 .webpack/
 
-# Distributions
-dist/
-
 .idea
