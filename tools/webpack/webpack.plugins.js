@@ -10,7 +10,7 @@ module.exports = [
   inDev() && new webpack.HotModuleReplacementPlugin(),
   inDev() && new ReactRefreshWebpackPlugin(),
   new HtmlWebpackPlugin({
-    template: 'src/index.html',
+    template: 'index.html',
     favicon: 'assets/images/logo.png',
     inject: true,
   }),
